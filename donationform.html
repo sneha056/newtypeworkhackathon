@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donation Form</title>
+  <style>
+    body {
+        background-image:url("https://www.harekrishnacharities.org/assets/img/blogs/2023/03/donate-food-for-student-education.jpeg");
+        background-repeat: no-repeat;
+        background-size:fixed;
+        
+        
+         }
+      
+    .container {
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      background-color:rgba(0,0,0,0.5);
+      box-shadow: insert -5px -5px rgba(0,0,0,0.5);
+      border-radius:25px;
+  
+    }    
+
+h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+ input[type="text"],select{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+}
+
+
+    input[type="number"], select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    button {
+      background-color:blue;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="color:white;">
+    <h1>Your generous donation will sustain our work!</h1>
+
+    <div class="form-group">
+    <label for="name"style="color:white;">Donor Name :  </label>
+    <input type="text" id="name"  placeholder="Enter Your  Name">
+    </div>
+ <div class="form-group">
+    <label for="name"style="color:white;">Donor Email :  </label>
+    <input type="text" id="name"  placeholder="Enter Your Email-id">
+    </div>
+   
+<div class="form-group">
+    <label for="phone"style="color:white;">Donor Phone Number :  </label>
+    <input type="number" id="phonenumber"  placeholder="Enter Your Phone Number">
+    </div>
+   
+
+   
+    <div class="form-group">
+      <label for="donationAmount" style="color:white;">Enter Amount:</label>
+      <input type="number" id="donationAmount" value="150.00" placeholder="Enter Amount">
+    </div>
+
+    <div class="form-group">
+      <label for="frequency" style="color:white;">Charity For:</label>
+      <select id="frequency">
+        <option value="monthly">Education</option>
+        <option value="yearly">Clothes</option>
+        <option value="yearly">Food</option>
+         <option value="yearly">Medical Facility</option>
+
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="account number" style="color:white;">Account Number:</label>
+      <input type="number" id="account number"  placeholder="Enter Account No.">
+    </div>
+
+    <div class="button-container">
+      <button type="button" onclick="alert('THANKYOU :)')" style="color:white;">SUBMIT</button>
+    </div>
+  </div>
+</body>
+</html>

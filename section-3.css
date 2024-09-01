@@ -1,0 +1,31 @@
+
+
+.section3 {
+    height: 70vh;
+    background-color: rgba(0, 0, 128, 0.056);
+}
+
+.sec3-h4 {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.benifits {
+    margin: 30px auto auto 200px;
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    grid-template-rows: 200px 200px;
+    column-gap: 20px;
+   
+}
+
+
+.box img {
+    height: 100px;
+    margin-left: 30%;
+}
+
+.box h5 {
+    text-align: center;
+}

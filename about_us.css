@@ -1,0 +1,45 @@
+.about_us{
+    /* background-color: rgba(239, 235, 235, 0.395); */
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+/* about us title */
+.about_heading{
+    text-align: center;
+    font-size: 40px;
+    padding-top:18px;
+
+}
+.about_para{
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* icons */
+.about_icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.icon{
+    width: 33%;
+    height: 10%;
+    text-align: center;
+}
+
+/* button */
+.abt_btn{
+    margin-top: 20px;
+    background-color: navy;
+    color: white;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: 47%;
+    border-radius: 10px;
+}
+.abt_btn:hover{
+    background-color:rgb(90, 125, 171);
+}
